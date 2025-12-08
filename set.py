@@ -7,7 +7,7 @@
 # print(type(s))
 
 
-s = {1,2,3,4,5,6,7,8,9}
+s = {1,2,3,4,5,6,7,8,9,102}
 
 x = { 101,102,103,1,2}
 
@@ -24,7 +24,9 @@ x = { 101,102,103,1,2}
 # print(l)
 
 # s.remove(11)  
-# s.discard(102)
+s.discard(103)
+
+print(s)
 
 # s.pop()
 
@@ -34,4 +36,4 @@ x = { 101,102,103,1,2}
 
 # print(s.difference(x))
 
-print(s.symmetric_difference(x))
+# print(s.symmetric_difference(x))
