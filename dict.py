@@ -19,15 +19,16 @@ Marks =  {
 # print(Marks.popitem())
 # print(Marks.setdefault("gurgoan"))
 
-# copymarks = Marks.copy()
+copymarks = Marks.copy()
 
-# Marks["age"]=  25
+Marks["age"]=  25
 
-# print(Marks)
-# print(copymarks)
+print(Marks)
+print(copymarks)
 
 print(Marks.update({"name": "depuu"}))
 print(Marks)
+
 
 
 
